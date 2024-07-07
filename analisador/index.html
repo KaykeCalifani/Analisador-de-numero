@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador de números</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>
+                <label for="numero">Número(entre 1 e 100)</label>
+                <input type="number" name="numero" id="fnum" min="1" max="100">
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            </p>
+            <select name="lis" id="lis" size="6"></select>
+            <br>
+            <input type="button" value="Finalizar" onclick="final()">
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy;GlioFani
+        </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
